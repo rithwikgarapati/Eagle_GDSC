@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Eagle",
+    "version": "1.0.0",
+    "description": "A basic example extension with only required keys",
+    "icons": {
+      "48": "eagleIcon.png"
+    },
+    "action": {
+      "default_popup": "index.html"
+    },
+    "permissions": [
+      "scripting"
+    ],
+    "host_permissions": [
+      "https://*/*",
+      "http://*/*"
+    ]
+}
